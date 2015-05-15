@@ -9,10 +9,10 @@
 
 
 $driver="mysql";
-$servidor="localhost";
+$servidor="mysql.vattios.net";
 // $base="apptranschiclayo";
-$base="apptranscix";
-$usuario="root";
+$base="u106415707_apptc";
+$usuario="u106415707_root";
 $password="";
 $cadena = "$driver:host=$servidor;dbname=$base";
 
