@@ -1,16 +1,3 @@
-<?php
-  session_name('tchiclayo');
-  session_start();
-  // $email = utf8_encode($_SESSION['email']);;
-  $correo = false;
-  if (isset($_SESSION['id'])) {
-    $correo = utf8_encode($_SESSION['email']);;
-  }
-  $estado = false; // booleana
-  if (isset($_SESSION['id'])) {
-    $estado = utf8_encode($_SESSION['nombre'].' '.$_SESSION['apellidoP']);;
-  }
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -36,18 +23,24 @@
 </head>
 <body>
 
+  <img class="visible-xs" id="imgback" src="img/slide/chiclayobg3-1.jpg" alt="la tierra">
+  <img class="visible-sm visible-md" id="imgback" src="img/slide/chiclayobg3-2.jpg" alt="la tierra">
+  <img class="visible-lg" id="imgback" src="img/slide/chiclayobg3-3.jpg" alt="la tierra">
+
   <!-- MasterHead -->
-  <div class="container-fluid">
+  <!-- <div class="container-fluid">
     <div class="row bgcolor-head">
       <center>
         <img align="center" class="img-responsive" src="img/logo.png" alt="Transportes Chiclayo">
       </center>
-    </div> <!-- fin /row -->
-  </div> <!-- fin /container-fluid -->
+    </div> -->
+    <!-- fin /row -->
+  <!-- </div> -->
+  <!-- fin /container-fluid -->
   <!-- Fin MasterHead -->
 
   <!-- Carousel -->
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!--   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="img/slide/chiclayo.jpg" alt="Primer slide">
@@ -70,8 +63,10 @@
       <div class="item">
         <img src="img/slide/cajamarca2.jpg" alt="Setimo slide">
       </div>
-    </div> <!-- fin /carousel-inner -->
-  </div> <!-- fin /carousel slide -->
+    </div> -->
+    <!-- fin /carousel-inner -->
+  <!-- </div> -->
+  <!-- fin /carousel slide -->
   <!-- Fin Carousel -->
 
 
@@ -96,7 +91,7 @@
         
   </div> -->
 
-  <div class="container-fluid">
+  <div class="container-fluid centrado">
     <div class="row">
       <table align="center" style="margin-top: 26px; margin-bottom: 26px;">
         <tr align="center">
@@ -109,16 +104,16 @@
           <td></td>
         </tr>
         <tr align="center">
-          <td><p><a href="php/agencias.html"><img class="img-responsive img-circle" src="img/index/agencias.png"></a></p>
-            <strong>Agencias</strong>
+          <td><p><a href="31.170.166.169/php/agencias.php"><img class="img-responsive img-circle index-imagen" src="img/index/agencias.png"></a></p>
+            <strong class="index-texto">Agencias</strong>
           </td>
           <td></td>
           <td></td>
           <td></td>
           <td></td>
           <td></td>
-          <td><p><a href="php/logeo.php"><img class="img-responsive img-circle" src="img/index/cuenta.png"></a></p>
-            <strong>Mi Cuenta</strong>
+          <td><p><a href="31.170.166.169/php/logeo.php"><img class="img-responsive img-circle index-imagen" src="img/index/cuenta.png"></a></p>
+            <strong class="index-texto">Cuenta</strong>
           </td>
         </tr>
         <tr align="center">
@@ -143,8 +138,8 @@
           <td></td>
           <td></td>
           <td></td>
-          <td><p><a href="php/itinerario.php"><img class="img-responsive img-circle" src="img/index/itinerario.png"></a></p>
-            <strong>Itinerario</strong>
+          <td><p><a href="31.170.166.169/php/itinerario.php"><img class="img-responsive img-circle index-imagen" src="img/index/itinerario.png"></a></p>
+            <strong class="index-texto">Itinerario</strong>
           </td>
           <td></td>
           <td></td>
@@ -165,16 +160,16 @@
           <td>&nbsp;</td>
         </tr>
         <tr align="center">
-          <td><p><a href="php/servicios.html"><img class="img-responsive img-circle" src="img/index/servicios.png"></a></p>
-            <strong>Servicios</strong>
+          <td><p><a href="31.170.166.169/php/servicios.php"><img class="img-responsive img-circle index-imagen" src="img/index/servicios.png"></a></p>
+            <strong class="index-texto">Servicios</strong>
           </td>
           <td></td>
           <td></td>
           <td></td>
           <td></td>
           <td></td>
-          <td><p><a href="php/ubicanos.php"><img class="img-responsive img-circle" src="img/index/localizacion.png"></a></p>
-            <strong>Ubicanos</strong>
+          <td><p><a href="31.170.166.169/php/agencias.php"><img class="img-responsive img-circle index-imagen" src="img/index/localizacion.png"></a></p>
+            <strong class="index-texto">Ubicanos</strong>
           </td>
         </tr>
         <tr align="center">
@@ -197,6 +192,6 @@
 
   <!-- Agregados en el main -->
   <script src="js/main.js"></script>
-
+  
 </body>
 </html>

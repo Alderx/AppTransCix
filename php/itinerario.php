@@ -41,6 +41,8 @@
       <div class="col-xs-12 bgcolor-head">
         <center>
           <img class="img-responsive" src="../img/logo.png" alt="Transportes Chiclayo">
+          <a href="../index.html" class="glyphicon glyphicon-home" style="color:#F7D358;font-size:20px;">
+          <p style="font-size:14px;font-family:Verdana;">Inicio</p></a>
         </center>
       </div>
     </div> <!-- fin /row -->
@@ -189,24 +191,24 @@
       <table align="center" style="margin-top: 29px; margin-bottom: 29px;">
         <tr align="center">
           <td>&nbsp;&nbsp;&nbsp;</td>
-          <td><p><a href="agencias.php"><img class="img-responsive img-circle" style="width:55px; heigth:55px;" src="../img/index/agencias.png"></a></p>
-            <strong>Agencias</strong>
+          <td><p><a href="agencias.php"><img class="img-responsive img-circle index-imagen" style="width:55px; heigth:55px;" src="../img/index/agencias.png"></a></p>
+            <strong class="index-texto">Agencias</strong>
           </td>
           <td>&nbsp;&nbsp;&nbsp;</td>
-          <td><p><a href="logeo.php"><img class="img-responsive img-circle" style="width:55px; heigth:55px;" src="../img/index/cuenta.png"></a></p>
-            <strong>Mi Cuenta</strong>
+          <td><p><a href="logeo.php"><img class="img-responsive img-circle index-imagen" style="width:55px; heigth:55px;" src="../img/index/cuenta.png"></a></p>
+            <strong class="index-texto">Cuenta</strong>
           </td>
           <td>&nbsp;&nbsp;&nbsp;</td>
-          <td><p><a href="itinerario.php"><img class="img-responsive img-circle" style="width:55px; heigth:55px;" src="../img/index/itinerario.png"></a></p>
-            <strong>Itinerario</strong>
+          <td><p><a href="itinerario.php"><img class="img-responsive img-circle index-imagen" style="width:55px; heigth:55px;" src="../img/index/itinerario.png"></a></p>
+            <strong class="index-texto">Itinerario</strong>
           </td>
           <td>&nbsp;&nbsp;&nbsp;</td>
-          <td><p><a href="servicios.php"><img class="img-responsive img-circle" style="width:55px; heigth:55px;" src="../img/index/servicios.png"></a></p>
-            <strong>Servicios</strong>
+          <td><p><a href="servicios.php"><img class="img-responsive img-circle index-imagen" style="width:55px; heigth:55px;" src="../img/index/servicios.png"></a></p>
+            <strong class="index-texto">Servicios</strong>
           </td>
           <td>&nbsp;&nbsp;&nbsp;</td>
-          <td><p><a href="ubicanos.php"><img class="img-responsive img-circle" style="width:55px; heigth:55px;" src="../img/index/localizacion.png"></a></p>
-            <strong>Ubicanos</strong>
+          <td><p><a href="agencias.php"><img class="img-responsive img-circle index-imagen" style="width:55px; heigth:55px;" src="../img/index/localizacion.png"></a></p>
+            <strong class="index-texto">Ubicanos</strong>
           </td>
           <td>&nbsp;&nbsp;&nbsp;</td>
         </tr>
